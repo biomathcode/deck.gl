@@ -63,7 +63,7 @@ function DeckGLOverlay(props: DeckProps) {
 }
 
 function App() {
-  const layers: [
+  const layers= [
     new ScatterplotLayer({
       id: 'deckgl-circle',
       data: [
